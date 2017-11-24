@@ -1,6 +1,6 @@
 {
   "name": "three-def",
-  "version": "0.84.29",
+  "version": "1.0.0",
   "description": "This package contains type definitions for three.js (http://mrdoob.github.com/three.js/).",
   "main": "index.js",
   "scripts": {

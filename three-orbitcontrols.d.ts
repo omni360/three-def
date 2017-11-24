@@ -5,7 +5,7 @@
 
 
 declare namespace THREE {
-    class OrbitControls {
+    export class OrbitControls extends THREE.EventDispatcher {
         constructor(object: Camera, domElement?: HTMLElement);
 
         object: Camera;

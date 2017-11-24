@@ -14,6 +14,7 @@
 /// <reference path="three-orbitcontrols.d.ts" />
 /// <reference path="three-orthographictrackballcontrols.d.ts" />
 /// <reference path="three-projector.d.ts" />
+/// <reference path="three-pass.d.ts" />
 /// <reference path="three-renderpass.d.ts" />
 /// <reference path="three-shaderpass.d.ts" />
 /// <reference path="three-trackballcontrols.d.ts" />

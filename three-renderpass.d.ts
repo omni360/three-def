@@ -5,7 +5,7 @@
 
 
 declare namespace THREE {
-    export class RenderPass {
+    export class RenderPass extends Pass {
         // constructor(scene: Scene, camera: Camera, overrideMaterial?: Material, clearColor?: Color, clearAlpha?: number);
         constructor(scene: Scene, camera: Camera, overrideMaterial?: Material, clearColor?: Color | string | number, clearAlpha?: number);
         // constructor(scene: Scene, camera: Camera, overrideMaterial?: Material, clearColor?: number, clearAlpha?: number);
