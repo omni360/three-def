@@ -5810,6 +5810,7 @@ export class WebGLState {
     setStencilWrite(stencilWrite: any): void;
     setStencilFunc(stencilFunc: Function, stencilRef: any, stencilMask: number): void;
     setStencilOp(stencilFail: any, stencilZFail: any, stencilZPass: any): void;
+    setMaterial(material:Material): void;
     setFlipSided(flipSided: number): void;
     setCullFace(cullFace: CullFace): void;
     setLineWidth(width: number): void;

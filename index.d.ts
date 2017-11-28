@@ -5965,6 +5965,8 @@ declare namespace THREE {
 
     setStencilOp(stencilFail: any, stencilZFail: any, stencilZPass: any): void;
 
+    setMaterial(material:Material): void;
+
     setFlipSided(flipSided: number): void;
 
     setCullFace(cullFace: CullFace): void;
